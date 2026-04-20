@@ -13,6 +13,7 @@ A carga consistiu em 500 requisições matemáticas aleatórias.
 
 📊 Resultados e Análise de Desempenho
 Cenário	Arquitetura do Servidor	Arquitetura do Cliente	Tempo Total
+
 A	Iterativo (Single-Thread)	Sequencial	-> 0.3655s
 B	Concorrente (Multi-Thread)	Sequencial	-> 0.4762s
 C	Concorrente (Multi-Thread)	Paralelo (Multi-Thread)	-> 14.5552s
